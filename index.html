@@ -93,14 +93,14 @@
 		<input id="user-fio" name="user-fio" type="text" placeholder='Ваше полное имя' required />
 		<br />
 		<label for="user-phone"> Номер телефона:</label><br />
-		<input id="user-phone" name="user-phone" type="tel" pattern="[0-9]{11}" placeholder='7 (999)999-99-99'" />
+		<input id="user-phone" name="user-phone" type="tel" pattern="[0-9]{11}" placeholder='7 (999)999-99-99' />
 		<br />
-		<label for=" user-email"> Электронная почта</label><br />
+		<label for="user-email"> Электронная почта</label><br />
 		<input id="user-email" name="user-email" type="email" placeholder='example@example.example' required />
-		<br />
+		<br>
 		<label for="data">Дата рождения:</label><br />
 		<input id="data" name="data" type="date" required />
-		<br />
+		<br>
 		<label>Ваш пол:</label><br />
 		<input type="radio" id="male" name="gender" value="male" />
 		<label for="male">Мужской</label>
@@ -108,7 +108,7 @@
 		<label for="female">Женский</label>
 		<br />
 		<label for="languages">Любимые языки программирования:</label>
-		<select id="languages" name="languages" **multiple**>
+		<select id="languages" name="languages" multiple>
 			<option disabled value="" selected>Не выбрано</option>
 			<option value="Pascal">Pascal</option>
 			<option value="C">C</option>
@@ -125,10 +125,9 @@
 		<p>
 			<label for="biografi"> Биография:</label>
 			<textarea id="biography" name="biography" rows="2" placeholder='Расскажите о себе'></textarea>
-			</l>
-		<p>
-			<label for="agree"> с контрактом ознакомлен (а)</label>
-			<input id="agree" name="agree" type="checkbox" required />
+		</p>
+		<label for="agree"> с контрактом ознакомлен (а)</label>
+		<input id="agree" name="agree" type="checkbox" required />
 		</p>
 		<input type="submit" value="Сохранить" />
 	</form>
